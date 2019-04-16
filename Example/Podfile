@@ -1,4 +1,4 @@
-use_frameworks!
+#use_frameworks!
 
 platform :ios, '8.0'
 
@@ -7,10 +7,5 @@ target 'YLCategroy_Example' do
 
   target 'YLCategroy_Tests' do
     inherit! :search_paths
-
-    pod 'Specta'
-    pod 'Expecta'
-    pod 'FBSnapshotTestCase'
-    pod 'Expecta+Snapshots'
   end
 end

@@ -1,0 +1,20 @@
+//
+//  UINavigationBar+AlphaColor.h
+//  TestToolsAndCategroys
+//
+//  Created by MobbyDeveloper on 15/11/25.
+//  Copyright © 2015年 LYL. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface UINavigationBar (AlphaColor)
+
+- (void)yl_setBackgroundColor:(UIColor *)backgroundColor;
+- (void)yl_setElementsAlpha:(CGFloat)alpha;
+- (void)yl_setTranslationY:(CGFloat)translationY;
+- (void)yl_reset;
+
+@property (nonatomic, strong) UIView *overlay;
+
+@end

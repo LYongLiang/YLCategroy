@@ -1,0 +1,22 @@
+{
+  "name": "YLCategroy",
+  "version": "0.1.0",
+  "summary": "LYL Categroy",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LYongLiang/YLCategroy",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LYongLiang": "liangyl0515@163.com"
+  },
+  "source": {
+    "git": "git@github.com:LYongLiang/YLCategroy.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YLCategroy/Classes/**/*"
+}

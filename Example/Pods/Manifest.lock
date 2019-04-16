@@ -1,0 +1,16 @@
+PODS:
+  - YLCategroy (0.1.0)
+
+DEPENDENCIES:
+  - YLCategroy (from `../`)
+
+EXTERNAL SOURCES:
+  YLCategroy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YLCategroy: f569390554e85e654ac58df5bb080bd6eb8f4f97
+
+PODFILE CHECKSUM: ddfecfcc6532a3a0a2f96d615303f83c3f2393a3
+
+COCOAPODS: 1.6.1
