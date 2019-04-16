@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		12BA58310025979845DBEBB1 /* libPods-YLCategroy_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 451353FAAFD1B02B1B166F16 /* libPods-YLCategroy_Example.a */; };
+		1E4D3F382265CAA0008D2899 /* TestOBJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D3F372265CAA0008D2899 /* TestOBJ.m */; };
 		4698E22CA5E4395EDC59E577 /* libPods-YLCategroy_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9913EC623F6287E86B159680 /* libPods-YLCategroy_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E4D3F362265CAA0008D2899 /* TestOBJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOBJ.h; sourceTree = "<group>"; };
+		1E4D3F372265CAA0008D2899 /* TestOBJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOBJ.m; sourceTree = "<group>"; };
 		2BA55CC2EE120D1E7BF095F9 /* Pods-YLCategroy_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLCategroy_Tests.release.xcconfig"; path = "Target Support Files/Pods-YLCategroy_Tests/Pods-YLCategroy_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		346FF3266AB741395B7263BA /* YLCategroy.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLCategroy.podspec; path = ../YLCategroy.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		451353FAAFD1B02B1B166F16 /* libPods-YLCategroy_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLCategroy_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +137,8 @@
 			children = (
 				6003F59C195388D20070C39A /* YLAppDelegate.h */,
 				6003F59D195388D20070C39A /* YLAppDelegate.m */,
+				1E4D3F362265CAA0008D2899 /* TestOBJ.h */,
+				1E4D3F372265CAA0008D2899 /* TestOBJ.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YLViewController.h */,
 				6003F5A6195388D20070C39A /* YLViewController.m */,
@@ -347,6 +352,7 @@
 				6003F59E195388D20070C39A /* YLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				1E4D3F382265CAA0008D2899 /* TestOBJ.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
