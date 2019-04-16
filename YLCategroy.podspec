@@ -21,8 +21,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'git@github.com:LYongLiang/YLCategroy.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+  
+  s.subspec 'YLAddition' do |aaa|
+      aaa.source_files = 'YLCategroy/Classes/YLAddition/**/*'
+  end
 
-  s.source_files = 'YLCategroy/Classes/**/*'
   
   # s.resource_bundles = {
   #   'YLCategroy' => ['YLCategroy/Assets/*.png']
